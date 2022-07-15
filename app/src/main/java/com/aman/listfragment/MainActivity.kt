@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
         list.adapter = arrayAdapter as ArrayAdapter<String>
         list.setOnItemClickListener { adapterView, view, position, l ->
             Toast.makeText(this,"${array.get(position)}",Toast.LENGTH_LONG).show()
-            var intent = Intent()
-            intent.putExtra()
+         
         }
+        list.setOnScrollChangeListener { view, i, i2, i3, i4 ->  }
 
 
     }
