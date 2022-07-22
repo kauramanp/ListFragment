@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ListFragment</string>
+    <string name="string_adapter_list">String adapter List</string>
+    <string name="custom_adapter_list">Custom adapter List</string>
 </resources>
